@@ -11,7 +11,7 @@ const customStyle = {
 if (time < 12) {
     greetings = "Good morning";
     customStyle.color = "rosybrown";
-}else if(time < 18) {
+}else if(12 < time < 18) {
     greetings = "Good Afternoon";
     customStyle.color = "seagreen";
 } else {
